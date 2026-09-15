@@ -30,4 +30,4 @@ https://www.lernen-zick.de
 
 ---
 
-Founded by Dominik Klossika.
+[Founded by Dominik Klossika.](https://clado.arrive-eta.workers.dev/)
