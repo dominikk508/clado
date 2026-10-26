@@ -1,33 +1,37 @@
+<a href="https://cladostudio.com/en/spielplatz"><img src="assets/playground.webp" alt="A floating island rendered in Blender with four houses, the playground of cladostudio.com" width="100%"></a>
+
 # clado
 
-Web design and software development for small businesses.
+Websites for small businesses: trades, restaurants and service providers near Ulm, Germany. Built by hand at a fixed price, and the finished site belongs to the customer.
 
-clado creates modern websites and digital solutions with a focus on clean design, usability and practical business value.
+**[cladostudio.com](https://cladostudio.com)** · [Playground](https://cladostudio.com/en/spielplatz)
 
 The name comes from the Greek word **klados**, meaning *branch*.
 
-## Services
+## What clado builds
 
-- Website design & development
-- Responsive web applications
-- Digital business solutions
-- AI-powered integrations
-- Process automation
+- Websites designed for each business, with contact form, legal notice and privacy policy
+- Modules such as appointment booking, online ordering, payments and a second language
+- Copywriting and Google Business Profile setup
+- Hosting, backups, updates and current legal texts as a monthly plan, cancellable any month
 
-## Selected work
+## The studio site
 
-### WalzWerk Kreativmanufaktur
+[cladostudio.com](https://cladostudio.com) is built with Astro on Cloudflare Workers. The [playground](https://cladostudio.com/en/spielplatz) shows what a browser can do:
 
-Website for a creative ceramics studio near Ulm, Germany.
+- a floating island rendered in Blender that moves in the browser, with wind, drifting clouds and four times of day
+- a garden gate configurator in three.js that runs in a Web Worker
+- a villa that builds itself pixel by pixel as you scroll
 
-https://walzwerk-kreativ.de
+Every page is measured on a 4× throttled CPU: no frame over 20&nbsp;ms. And no third-party servers: no Google Fonts, no CDN, no analytics, no cookie banner.
 
-### Lerntherapiepraxis Ulrike Zick
+## Selected client work
 
-Website for a learning therapy practice specializing in LRS and dyscalculia.
+- **[WalzWerk Kreativmanufaktur](https://walzwerk-kreativ.de)**: website for a ceramics painting studio near Ulm with its own booking system, online payment and gift vouchers.
+- **[Lerntherapie Ulrike Zick](https://www.lernen-zick.de)**: multi-page site for a learning therapy practice, with a contact form protected against spam without captchas or third-party services.
 
-https://www.lernen-zick.de
+> The source code of the studio site and the client projects is private. This repository is a public showcase.
 
 ---
 
-[Founded by Dominik Klossika.](https://clado.arrive-eta.workers.dev/)
+Founded by [Dominik Klossika](https://github.com/dominikk508), run together with [Jannis Dietrich](https://github.com/jannisd07).
